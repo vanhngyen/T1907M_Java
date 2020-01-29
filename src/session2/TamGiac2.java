@@ -1,9 +1,9 @@
 package session2;
 
-public class TamGiac2 {
-    public int a;
-    public int b;
-    public int c;
+    public class TamGiac2 {
+        public int a;
+        public int b;
+        public int c;
 
     public TamGiac2(){
 

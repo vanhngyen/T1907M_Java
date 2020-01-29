@@ -2,7 +2,8 @@ package session2;
 
 import java.util.Scanner;
 
-public class Main {
+public class TamGiacVuong extends TamGiac2{
+
     public static void main(String[] args) {
         int a,b,c;
         Scanner sc = new Scanner(System.in);
@@ -13,14 +14,15 @@ public class Main {
             b=sc.nextInt();
             System.out.println("Nhập Cạnh thứ ba:");
             c=sc.nextInt();
-        }while (!checkTamGiac(a,b,c));
+        }while (!checkTamGiacVuong(a,b,c));
+        System.out.println("Đây là tam giác vuông @@");
         TamGiac2 tg = new TamGiac2(a,b,c);
         System.out.println("Chu Vi :"+tg.getChuvi());
         System.out.println("Diện Tích :"+tg.getDientich());
 
     }
-    public static boolean checkTamGiac(int a, int b, int c){
-        if(a+b >c && a+c >b && b+c >a)return true;
+    public static boolean checkTamGiacVuong(int a, int b, int c){
+        if((a * a == b * b + c * c) || (b * b == a * a + c * c) || (c * c == b * b + a * a))return true;
         return false;
 
     }
