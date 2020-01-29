@@ -1,4 +1,4 @@
-package session2;
+package TamGiac;
 
 import java.util.Scanner;
 
@@ -14,7 +14,7 @@ public class Main {
             System.out.println("Nhập Cạnh thứ ba:");
             c=sc.nextInt();
         }while (!checkTamGiac(a,b,c));
-        TamGiac2 tg = new TamGiac2(a,b,c);
+        TamGiac tg = new TamGiac(a,b,c);
         System.out.println("Chu Vi :"+tg.getChuvi());
         System.out.println("Diện Tích :"+tg.getDientich());
 

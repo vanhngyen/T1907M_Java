@@ -1,8 +1,8 @@
-package session2;
+package TamGiac;
 
 import java.util.Scanner;
 
-public class TamGiacCan extends TamGiac2{
+public class TamGiacCan extends TamGiac{
     public static void main(String[] args) {
         int a, b, c;
         Scanner sc = new Scanner(System.in);
@@ -16,9 +16,9 @@ public class TamGiacCan extends TamGiac2{
         } while (!checkTamGiaccan(a, b, c));
         System.out.println("Đây là tam giác cân @@");
     }
-        public static boolean checkTamGiaccan(int a, int b, int c){
-            if(a==c || a==b || b==c)return true;
-            return false;
+    public static boolean checkTamGiaccan(int a, int b, int c){
+        if(a==c || a==b || b==c)return true;
+        return false;
 
-        }
+    }
 }

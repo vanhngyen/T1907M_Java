@@ -1,9 +1,10 @@
-package session2;
+package TamGiac;
+
+import session2.TamGiac2;
 
 import java.util.Scanner;
 
-public class TamGiacVuong extends TamGiac2{
-
+public class TamGiacVuong extends TamGiac {
     public static void main(String[] args) {
         int a,b,c;
         Scanner sc = new Scanner(System.in);
@@ -24,6 +25,5 @@ public class TamGiacVuong extends TamGiac2{
     public static boolean checkTamGiacVuong(int a, int b, int c){
         if((a * a == b * b + c * c) || (b * b == a * a + c * c) || (c * c == b * b + a * a))return true;
         return false;
-
     }
 }

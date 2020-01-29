@@ -1,15 +1,15 @@
-package session2;
+package TamGiac;
 
-    public class TamGiac2 {
-        public int a;
-        public int b;
-        public int c;
+public class TamGiac {
+    public int a;
+    public int b;
+    public int c;
 
-    public TamGiac2(){
+    public TamGiac(){
 
     }
 
-    public TamGiac2(int a, int b, int c) {
+    public TamGiac(int a, int b, int c) {
         this.a = a;
         this.b = b;
         this.c = c;

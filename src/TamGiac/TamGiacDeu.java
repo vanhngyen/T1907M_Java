@@ -1,9 +1,8 @@
-package session2;
+package TamGiac;
 
 import java.util.Scanner;
 
-public class TamGiacDeu extends TamGiac2{
-
+public class TamGiacDeu extends TamGiac{
     public static void main(String[] args) {
         int a, b, c;
         Scanner sc = new Scanner(System.in);
