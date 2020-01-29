@@ -1,7 +1,5 @@
 package TamGiac;
 
-import session2.TamGiac2;
-
 import java.util.Scanner;
 
 public class TamGiacVuong extends TamGiac {
@@ -17,7 +15,7 @@ public class TamGiacVuong extends TamGiac {
             c=sc.nextInt();
         }while (!checkTamGiacVuong(a,b,c));
         System.out.println("Đây là tam giác vuông @@");
-        TamGiac2 tg = new TamGiac2(a,b,c);
+        TamGiac tg = new TamGiac(a,b,c);
         System.out.println("Chu Vi :"+tg.getChuvi());
         System.out.println("Diện Tích :"+tg.getDientich());
 
