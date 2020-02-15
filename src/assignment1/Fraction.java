@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Fraction {
     int Tuso;
     int Mauso;
-
+     
     public Fraction() {
 
     }
