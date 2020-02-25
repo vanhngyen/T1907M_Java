@@ -7,7 +7,6 @@ import java.util.*;
 public class PhoneBook extends Phone {
     List<BPInfo> phoneList = new ArrayList<>(); //tạo arraylist
 
-
     @Override
     public void insertPhone(String name, String phone) {
         BPInfo bpInfo = null;
@@ -41,7 +40,7 @@ public class PhoneBook extends Phone {
     }
 
     @Override
-    public void removePhone(String name) {
+    public void removePhone(String name){
         for (int i = 0; i < phoneList.size(); i++) {
             BPInfo bp1 = phoneList.get(i);
             if (bp1.getName().equals(name)) {
