@@ -1,4 +1,4 @@
-package Assignment2;
+package Assignment2ne;
 
 
 public interface INews {
