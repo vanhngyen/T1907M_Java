@@ -1,6 +1,8 @@
 package assignment1;
 
 
+import Assignment5Chua.Student;
+
 import java.util.Scanner;
 
 public class Fraction {

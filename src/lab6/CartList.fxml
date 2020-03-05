@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lab6.CartController">
+   <children>
+      <TableView fx:id="tbCartlist" layoutX="52.0" layoutY="85.0" prefHeight="231.0" prefWidth="497.0">
+
+      </TableView>
+      <Button fx:id="btnToBack" layoutX="227.0" layoutY="343.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="147.0" text="Back To" textFill="#315a9d" onAction="#addMore">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="100.0" layoutY="31.0" prefHeight="29.0" prefWidth="376.0" text="Cart" textFill="#315a9d">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
