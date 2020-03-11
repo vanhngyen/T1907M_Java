@@ -1,15 +1,10 @@
 package assignment8;
 
-import connector.Connector;
 import javafx.scene.control.TextField;
-import jdk.nashorn.internal.ir.Assignment;
-import lab_s6.List;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.util.ArrayList;
 
 public class Form {
     public TextField txtName = new TextField();
