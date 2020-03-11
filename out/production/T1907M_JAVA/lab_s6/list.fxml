@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lab_s6.List">
+    <children>
+        <ListView fx:id="lsView" layoutX="56.0" layoutY="20.0" prefHeight="311.0" prefWidth="489.0" />
+        <Button onAction="#form" layoutX="497.0" layoutY="341.0" mnemonicParsing="false" text="+">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Button>
+        <Button layoutX="56.0" layoutY="350.0" mnemonicParsing="false" text="Cart">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button onAction="#addToCart" layoutX="134.0" layoutY="350.0" mnemonicParsing="false" text="Add to cart">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+    </children>
+</Pane>
