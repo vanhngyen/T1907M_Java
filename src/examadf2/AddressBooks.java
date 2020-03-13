@@ -21,7 +21,7 @@ public class AddressBooks{
         for(int i=0;i<list.size();i++){
             Contact contact = list.get(i);
             if(contact.getName().equals(contactName)){
-                System.out.println("Name: "+contact.getName()+"Company:"+contact.getCompany()+"Email: "+contact.getName()+"Phone:"+contact.getPhone());
+                System.out.println("Name: "+contact.getName()+"\nCompany:"+contact.getCompany()+"\nEmail: "+contact.getName()+"\nPhone:"+contact.getPhone());
                 return true;
             }
         }

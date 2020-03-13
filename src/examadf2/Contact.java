@@ -48,6 +48,6 @@ public class Contact {
 
     @Override
     public String toString() {
-        return "Contact{" + "name='" + name + '\'' + ", company='" + company + '\'' + ", email='" + email + '\'' + ", phone='" + phone + '\'' + '}';
+        return "Contact{" + "\nName='" + name + '\'' + "\nCompany='" + company + '\'' + "\nEmail='" + email + '\'' + "\nPhone='" + phone + '\'' + '}';
     }
 }
